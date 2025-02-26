@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acab38dee3a74b7b85ff960b4759608e, type: 3}
+  m_Name: OnboardingContainer
+  m_EditorClassIdentifier: 
+  stepsSequence:
+  - WelcomeViewStep
+  - QuestionnaireStep
+  - FitnessTestStep
+  - CompleteStep
+  stepViews:
+  - {fileID: 5202352478591723042, guid: 35a01904a9f544dd198f0471a6824b7e, type: 3}
+  - {fileID: -5041140727124993610, guid: c5a60cfcc93807e42a01a15a4f624441, type: 3}
+  - {fileID: 8496668008123611596, guid: 8cbb6eed98a955440ad419b2764c7fd7, type: 3}
+  - {fileID: 256534404750725669, guid: 48d9ae7f672ff244aa365022204745a2, type: 3}
